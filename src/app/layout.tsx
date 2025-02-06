@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "Jatin Panesiya | Web Developer",
@@ -45,12 +44,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
+      <head>
         <meta
           name="google-site-verification"
-          content={process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION}
+          content="jnhgeSteZeQs6sdgLZLFVa3XZBnk9__IY6E27aayHls"
         />
-      </Head>
+      </head>
       <body>{children}</body>
     </html>
   );
